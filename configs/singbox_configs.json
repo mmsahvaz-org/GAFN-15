@@ -79,7 +79,9 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇺🇦 hysteria2-ba65427d (Ukraine)",
+        "🇺🇸 hysteria2-03e986c7 (United States)",
+        "🇺🇦 hysteria2-cbb79de4 (Ukraine)",
+        "🇲🇰 hysteria2-9047ea74 (North Macedonia)",
         "direct"
       ]
     },
@@ -87,7 +89,9 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇦 hysteria2-ba65427d (Ukraine)"
+        "🇺🇸 hysteria2-03e986c7 (United States)",
+        "🇺🇦 hysteria2-cbb79de4 (Ukraine)",
+        "🇲🇰 hysteria2-9047ea74 (North Macedonia)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -99,9 +103,33 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇺🇦 hysteria2-ba65427d (Ukraine)",
+      "tag": "🇺🇸 hysteria2-03e986c7 (United States)",
+      "server": "104.250.239.32",
+      "server_port": 49425,
+      "password": "07c122ad-50b2-4f61-9435-efcf112bb10b",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "real.getafreenode.sbs"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇦 hysteria2-cbb79de4 (Ukraine)",
       "server": "185.126.255.78",
       "server_port": 56684,
+      "password": "07c122ad-50b2-4f61-9435-efcf112bb10b",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "real.getafreenode.sbs"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇲🇰 hysteria2-9047ea74 (North Macedonia)",
+      "server": "38.190.150.10",
+      "server_port": 49425,
       "password": "07c122ad-50b2-4f61-9435-efcf112bb10b",
       "tls": {
         "enabled": true,
